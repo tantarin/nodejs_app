@@ -1,7 +1,5 @@
-express = require('express');
 var moment = require('moment');
 
-app = express();
 const format = "YYYY-MM-DD";
 
 var date = moment(new Date()).format(format);
