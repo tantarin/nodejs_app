@@ -5,4 +5,4 @@ require('http').Server((req, res) => {
     }
     res.end('NULL');
   })
-  .listen(8000);
+  .listen(process.env.PORT || 5000);
